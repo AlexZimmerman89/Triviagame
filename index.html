@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- //JQuery library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Normal CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 headerColumn">
+                <p id="triviaHeader">Totally Trivial Trivia!</p>
+                <div class="row">
+                    <div class="col-md-12 score">
+                        <p id="score">Score:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rowHeader">
+            <div class="col-md-12 startButtonColumn">
+                <p id="startButton"><strong>Start</strong></p>
+            </div>
+        </div>
+        <div class=" row">
+            <div class="col-md-12 timeRemainingColumn">
+                <p id="timeRemaining"></p>
+                <p id="questionAnsweredHeader"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 question1">
+                <p>What is 2+2</p>
+                <ol class="list1">
+                    <ul id="Q1A1">3</ul>
+                    <ul id="Q1A2">4</ul>
+                    <ul id="Q1A3">0</ul>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 question2">
+                <p>What is 3*6?</p>
+                <ol class="list2">
+                    <ul id="Q2A1">5</ul>
+                    <ul id="Q2A2">24</ul>
+                    <ul id="Q2A3">18</ul>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 question3">
+                <p>What is 5-4</p>
+                <ol class="list3">
+                    <ul id="Q3A1">1</ul>
+                    <ul id="Q3A2">50</ul>
+                    <ul id="Q3A3">68</ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
