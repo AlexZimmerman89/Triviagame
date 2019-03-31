@@ -7,7 +7,7 @@ The player will have 1 minute to answer 11 multiple choice questions. The game e
 Built With
 HTML5 CSS3 Twitter-Bootstrap - Framework JavaScript jQuery - JavaScript Library
 
-PseudoCode
+<em>PseudoCode</em>
 Click start button to begin trivia game
 
 Game loads Timer starts Questions display
