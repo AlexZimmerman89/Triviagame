@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mad Men Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css?family=Abel|Baloo+Paaji|Bubblegum+Sans|Carme|Didact+Gothic|Rammetto+One"
+        rel="stylesheet">
+    <link href="./MadMenTriviaAssets/css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./MadMenTriviaAssets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="welcomeScreen">
+            <h3>Welcome to</h3>
+            <h3><span id="madRed">Mad</span><span id="menWhite">Men</span></h3>
+            <h2>Trivia</h2>
+            <br>
+            <span id="textSound">*Best Played With Sound*</span>
+            <div id="startDiv">
+                <button type="button" id="startbtn" class="btn btn primary">Start!</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Game Section -->
+    <div>
+        <div id="time-container">
+            <div id="timeLeft"></div>
+        </div>
+        <div class="quiz-container">
+            <div id="quiz"></div>
+        </div>
+        <div id="button-container">
+            <button id="previous">Previous Question</button>
+            <button id="next">Next Question</button>
+            <button id="submit">Submit Responses</button>
+        </div>
+        <div id="results">
+            <div id="pageBreak"></div>
+            <div id="numberRight"></div>
+            <div id="numberWrong"></div>
+            <div id="numberUnanswered"></div>
+        </div>
+        <audio id="myAudio" src="MadMenTriviaAssets/images/madMenSong.m4a"></audio>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./MadMenTriviaAssets/javascript/app.js"></script>
+</body>
+
+</html>

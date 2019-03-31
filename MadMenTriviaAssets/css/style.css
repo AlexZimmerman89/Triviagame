@@ -1,0 +1,264 @@
+body { 
+    background-image: url(../images/madMenWallpaper.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+    height: auto;
+}
+
+button {
+    background: #009DA7;
+    margin-top: 15px;
+    background-image: -webkit-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: -moz-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: -ms-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: -o-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: linear-gradient(to bottom, #009DA7, #35c4cc);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #fe724a;
+    background-image: -webkit-linear-gradient(top, #fe724a, #de3607);
+    background-image: -moz-linear-gradient(top, #fe724a, #de3607);
+    background-image: -ms-linear-gradient(top, #fe724a, #de3607);
+    background-image: -o-linear-gradient(top, #fe724a, #de3607);
+    background-image: linear-gradient(to bottom, #fe724a, #de3607);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: actionIS;
+    color: red;
+    font-weight: bold;
+    font-family: 'Abel',sans-serif;
+} 
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: px;
+    font-size: 4em;
+    color: orange;
+    font-family: 'actionis';
+   }
+
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 4em;
+    color: orange;
+    font-family: 'actionis';
+}
+
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.directions {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.quiz-container {
+    position: relative;
+    height: 150px;
+    width: 450px;
+    margin: 0 auto; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 2.2em;
+    color: darkblue;
+}
+
+.slide {
+    position: absolute;
+    top: 0px;
+    transition: opacity 0.5s;
+    margin-top: 25px;
+    background-image: url(../images/donDraper.jpg);
+    padding: 15px 15px 0 15px;
+    z-index: 1;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+#audioControl {
+    text-align: center;
+}
+
+#audioFriendly {
+    font-size: 25px;
+}
+
+#bestPlayed {
+    font-size: 20px;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#correctAnswers {
+    color: #009DA7;
+    font-family: 'Rammetto One', cursive;
+    text-shadow: -3px -2px 0 #FFF,
+    -4px 0px 0 #FFF,
+    0px -1px 0 #FFF,
+    0px 0px 0 #FFF;
+}
+
+#incorrectAnswers {
+    color: #de3607;
+    font-family: 'Rammetto One', cursive;
+    text-shadow: -3px -2px 0 #FFF,
+    -4px 0px 0 #FFF,
+    0px -1px 0 #FFF,
+    0px 0px 0 #FFF;
+}
+
+#textSound {
+    position: relative;
+    font-family: actionIS;
+    color: greenyellow;
+    font-size: 20px;
+    margin: 0 auto;
+    left: 49.975px;
+    padding: 10px 0;
+    
+}
+
+#madRed {
+    color: red;
+    font-family: 'helvetica';
+    font-weight: bold;
+}
+
+#menWhite {
+    color: white;
+    font-family: 'helvetica';
+    font-weight: bold;
+}
+
+#quiz {
+    top: 20%;
+    transform: translateX(0px);
+    font-family: 'Carme', sans-serif;
+}
+
+#results {
+    margin-top: 20px;
+    background-image: url(../images/madMenResults.jpg);
+}
+
+#startbtn { /*http://css3buttongenerator.com/*/
+    background: #009DA7;
+    margin-top: 15px;
+    background-image: -webkit-linear-gradient(top, rgb(102, 153, 156), #35c4cc);
+    background-image: -moz-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: -ms-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: -o-linear-gradient(top, #009DA7, #35c4cc);
+    background-image: linear-gradient(to bottom, #009DA7, #35c4cc);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 39px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#startbtn:hover {
+    background: #fe724a;
+    background-image: -webkit-linear-gradient(top, #fe724a, #de3607);
+    background-image: -moz-linear-gradient(top, #fe724a, #de3607);
+    background-image: -ms-linear-gradient(top, #fe724a, #de3607);
+    background-image: -o-linear-gradient(top, #fe724a, #de3607);
+    background-image: linear-gradient(to bottom, #fe724a, #de3607);
+    text-decoration: none;
+  }
+
+  #startbtn:hover {
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+} 
+
+  #startDiv {
+    text-align: center;
+    position: relative;
+    -webkit-animation-name: startbutton;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */   
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: startbutton;
+    animation-duration: 3s;    
+    animation-fill-mode: forwards;
+}
+
+#time-container {
+    margin-top: 30px;
+    /* height: 120px; */
+}
+
+#welcomeScreen {
+    /* position: absolute; */
+    margin-top: 40px;
+    margin: 105px auto;
+    background-color: darkblue;
+    width: 310px;
+    /* left: 613px; */
+    opacity: 0.9;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes startbutton {
+    from {top: 200px;}
+    to {top: 0px;}
+}
+
+@keyframes startbutton {
+    from {top: 200px;}
+    to {top: 0px;}
+}
+
+@font-face {
+    font-family: actionIs;
+    src: url(font/actionis/actionis.ttf);
+    font-weight: bold;
+  }
