@@ -7,10 +7,10 @@ The player will have 1 minute to answer 10 multiple choice questions. The game e
 HTML5 CSS3 Twitter-Bootstrap - Framework JavaScript jQuery - JavaScript Library
 
 <strong>PseudoCode</strong><br><br>
-Click start button to begin trivia game
+Click start button to begin trivia game.
 
-Game loads Timer starts Questions display
+Game loads Timer starts Questions display.
 
-Player clicks on answer of their choice Player clicks submit OR Timer runs out and game ends
+Player clicks on answer of their choice Player clicks submit OR Timer runs out and game ends.
 
-Results are shown
+Results are then shown on the bottom half of the screen.
